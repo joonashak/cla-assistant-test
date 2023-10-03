@@ -11,11 +11,11 @@ on:
       - synchronize
 
 # explicitly configure permissions, in case your GITHUB_TOKEN workflow permissions are set to read-only in repository settings
-# permissions:
-#   actions: write
-#   contents: write
-#   pull-requests: write
-#   statuses: write
+permissions:
+  actions: write
+  contents: write
+  pull-requests: write
+  statuses: write
 
 jobs:
   cla:
