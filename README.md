@@ -1,2 +1,2 @@
 # cla-assistant-test
-Testing GHA CLA assistant
+Testing GHA CLA assistant.
