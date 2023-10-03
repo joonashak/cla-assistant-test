@@ -33,7 +33,7 @@ jobs:
           path-to-signatures: "signatures/cla.json"
           path-to-document: "https://github.com/cla-assistant/github-action/blob/master/SAPCLA.md" # e.g. a CLA or a DCO document
           # branch should not be protected
-          branch: "cla-signatures"
+          branch: "cla-signatures-2"
           allowlist: "dependabot[bot]"
 
           # the followings are the optional inputs - If the optional inputs are not given, then default values will be taken
