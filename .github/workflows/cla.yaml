@@ -12,7 +12,7 @@ on:
 
 # explicitly configure permissions, in case your GITHUB_TOKEN workflow permissions are set to read-only in repository settings
 permissions:
-  # actions: write
+  actions: write # this seems to be necessary to rerun this workflow automatically to set pr to green after cla has been accepted.
   # contents: write
   pull-requests: write
   statuses: write
